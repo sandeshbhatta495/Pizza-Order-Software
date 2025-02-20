@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand i {
+    color: #ffc107;
+    margin-right: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.size-card, .extra-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.size-card:hover, .extra-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.size-card.selected, .extra-card.selected {
+    border-color: #007bff;
+    background-color: #f8f9ff;
+}
+
+.size-card i, .extra-card i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.price-tag {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.order-item {
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.order-item .status {
+    font-size: 0.9rem;
+    padding: 3px 8px;
+    border-radius: 12px;
+    background-color: #ffc107;
+    color: #000;
+    display: inline-block;
+}
+
+#totalPrice {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
